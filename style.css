@@ -51,8 +51,8 @@
   }
 
   .habit {
-    width: 32px;
-    height: 32px; 
+    width: 64px;
+    height: 64px; 
     font-size: 32px;
     display: flex;
     align-items: center;
@@ -61,14 +61,14 @@
 
   .days {
     display: flex;
-    margin-left: 55px;
+    margin-left: 32px;
     gap: 48px;
   }
 
   .day {
     display: flex;
     flex-direction: column;
-    gap: 55px;
+    gap: 24px;
   }
 
   .day div{
@@ -77,6 +77,7 @@
     line-height: 125%;
     color: #a1a1aa;
     text-align: center;
+    font-size: 20px;
   }
 
   input{
@@ -86,12 +87,12 @@
     height: 64px;
     border: 2px solid #27272A;
     border-radius: 8px;
-    background-color: black;
+    background-color: #18181b;
   }
 
   input:checked {
-    background-color: #672dec;
-    border: 2px solid #8b5cf6;
+    background-color: #8b5cf6;
+    border: 2px solid #a78bfa;
   }
 
   @media(max-width: 570px) {
